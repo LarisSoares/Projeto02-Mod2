@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portifólio</title>
+   <link rel="stylesheet" href="../static/style.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+   <a href="seu linkedin" target="_blank"> 
+
+      
+  </a>
+</head>
+
+<body>
+
+   <nav>
+      <ul>
+         <li><a href="#inicio">Inicio</a></li>
+         <li><a href="#sobre-mim">Sobre mim</a></li>
+         <li><a href="#projetos">Projetos</a></li>
+         <li><a href="#habilidades">Habilidades</a></li>
+         <li><a href="#contato">Contato</a></li>
+      </ul>
+   </nav>
+
+   <header id="inicio">
+
+      <div>
+         <p> "O sucesso nasce do querer, da determinação e persistência em se chegar a um objetivo. Mesmo não atingindo o alvo, quem busca e vence obstáculos, no mínimo fará coisas admiráveis” </p>
+         <span> –"José de Alencar"</span>
+      </div>
+
+      <div id="img-rocket">
+         <img src="../static/img/Innovation-pana.png" alt="Imagem de uma mulher"/>
+      </div>
+
+   </header>
+
+   <section id="sobre-mim">
+
+      <div>
+         <img src="../static/img/189216041_3847411878719282_1111094934720221571_n.jpg" width="500" alt="Foto 3x4 da Larissa">
+      </div>
+
+      <div>
+         <p>
+            Meu nome é Larissa dos Santos Soares, tenho 25 anos e sou do Rio de Janeiro.. Atualmente me encontro estudando somente e procurando
+            me especializar a cada dia mais no ramo da tecnologia. No ano de 2019 iniciei a faculdade de Análise e desenvolvimento
+            de sistemas, mas tive que interrompe-lá por alguns motivos pessoais. Mas pretendo em breve terminá-la.
+            Também sou filha, noiva e Mãe, que é o papel que mais tenho orgulho nesse mundo! Com algumas experiências ao longo da vida e 
+            de trabalhos que já tive, a vida me ensinou é que independência é uma característica essencial para conquistar tudo aquilo
+            que quero conquistar. 
+            Dar meus próprios passos e contar com a ajuda daqueles que estão do meu lado, me levou longe e 
+            tenho certeza de que continuará me fazendo chegar cada vez mais perto de cada um dos 
+            sonhos que cultivo nessa minha caminhada. Minha meta é seguir em frente e futuramente ter muito sucesso em miha carreira!
+            
+         </p>
+      </div>
+
+   </section>
+
+   <section id="projetos">
+
+      <div>
+         <img src="../static/img/83d46d7dd1600412d74585e55b79b9dd.png" alt="">
+         <h2>Jogo de Interatividade</h2>
+         <p>Jogo feito no módulo 1 do curso, feito para rodar somente no terminal.. Baseado no jogo do Mario Bros, com a ajuda de sua turma!</p>
+         <button>Veja mais</button>
+      </div>
+
+      <div>
+         <img src="../static/img/cafe.png" alt="">
+         <h2>Jogo de humor</h2>
+         <p>Jogo de interatividade, para representar o humor do desenho! </p>
+         <button>Veja mais</button>
+      </div>
+
+      </section>
+
+   <section id="habilidades">
+      <h2>Habilidades Técnicas</h2>
+
+      <p>Python</p>
+      <div>
+         <span id="python">40%</span>
+      </div>
+
+      <p>HTML 5</p>
+      <div>
+         <span id="html">15%</span>
+      </div>
+
+      <p>CSS 3</p>
+      <div>
+         <span id="css">15%</span>
+      </div>
+
+   </section>
+
+</body>
+
+<section id="contato">
+
+   <div id="redes">
+      <h3>Se conecte comigo</h3>
+
+      <div id="icons">
+         <a href="https://www.linkedin.com/in/larissa-soares-220918" target="_blank"> 
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i> 
+         </a>
+
+         <a href="https://github.com/LarisSoares" target="_blank"> 
+            <i class="fa fa-github" aria-hidden="true"></i> 
+         </a>
+
+         <a href="https://www.instagram.com/laris.s.s" target="_blank"> 
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+         </a>
+      </div>
+      
+   </div>
+
+   <div id="form">
+
+      <h3>Mande uma mensagem</h3>
+
+      <form action='/send' method='POST'>
+
+         <label for="nome">Nome</label>
+         <input id="nome" name="nome" type="text">
+
+         <label for="email">E-mail</label>
+         <input type="email" id="email" name="email">
+
+         <label for="mensagem">Mensagem</label>
+         <textarea name="mensagem" id="mensagem" cols="10" rows="5"></textarea>
+         <button type="submit" id="enviar">Enviar</button>
+  
+      </form>
+   </div>
+         <div id="carregamento">
+            <p>Enviando mensagem</p>
+            <div id="loader"></div>
+         </div>
+</section>
+
+<footer>
+   <p><i>Todos os direitos reservados para: Larissa Soares</i></p>
+</footer>
+
+<script src="../static/script.js"></script>
+
+</body>
+</html>
